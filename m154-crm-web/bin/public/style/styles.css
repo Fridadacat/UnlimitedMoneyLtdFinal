@@ -1,0 +1,69 @@
+html {
+    font: 12px Helvetica, Arial, sans-serif;
+    color: #888;
+    background: #FFF;
+}
+
+h1 {
+    font: 25px Helvetica, Arial, sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+
+label {
+    font: 600 12px Helvetica, Arial, sans-serif;
+    color: #464646;
+}
+
+p {
+    font: 600 16px Helvetica, Arial, sans-serif;
+    color: #464646;
+}
+
+input,
+textarea, select {
+    background-color: #fff;
+    border: solid 1px #c9c9c9;
+    font: 400 16px Helvetica, Arial, sans-serif;
+}
+
+input {
+    height: 47px;
+	clear: both;
+    padding: 0px 3%;
+	margin-bottom: 30px;
+}
+
+input[type=submit], 
+input[type=button], 
+input[type=reset] {
+	margin:20px 20px 0 0;
+	color: blue;
+	cursor: pointer;
+}
+
+input[type=submit]:hover, 
+input[type=button]:hover, 
+input[type=reset]:hover {
+	background-color: #5858FA;
+	color: White;
+	cursor: pointer;
+	border-color: #2E2E2E;
+}
+
+label {  
+	display: inline-block;  
+	position: relative;  
+	margin-right: 15px;  
+	font-size: 13px;
+	padding-bottom: 2px;
+}  
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus, select:focus{
+    border-color: #2E2E2E;
+}

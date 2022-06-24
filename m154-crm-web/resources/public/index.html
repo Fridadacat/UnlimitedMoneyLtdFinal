@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <title>CRM App</title>
+      <link rel='stylesheet' type='text/css' href='style/styles.css'>
+      <link href="fa/css/all.css" rel="stylesheet">
+   </head>
+   <body>
+      <br />
+      <h1><i class="fas fa-plus-square" style="padding-right:6px;"></i>Create Customer</h1>
+      <form method="post" action="/createcustomer">
+         <label>Firstname:</label>
+         <br /><input type="text" name="firstname"/>
+         <br />
+         <br />
+         <label>Name:</label>
+         <br />
+         <input type="text" name="name"/>
+         <p/>
+            <input type="submit" value="Save"/>
+      </form>
+      <span style="color:green" th:text="${msg != null} ? ${msg}"></span>
+      <br />
+      <br />
+      <br />
+      <h1><i class="fas fa-search" style="padding-right:6px;"></i>Find Customer</h1>
+      <form method="post" action="/customer">
+         <label>Please insert customer number:</label>
+         <br />
+         <input type="text" name="customerId"/>
+         <p/>
+            <input value="Search" type="submit"/>
+      </form>
+      <br />
+   </body>
+</html>

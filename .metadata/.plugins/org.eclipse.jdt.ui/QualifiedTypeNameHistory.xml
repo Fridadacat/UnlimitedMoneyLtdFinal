@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="io.javalin.http.staticfiles.Location"/>
+    <fullyQualifiedTypeName name="io.javalin.http.ErrorHandler"/>
+    <fullyQualifiedTypeName name="ch.ilv.crm.web.Path"/>
+</qualifiedTypeNameHistroy>
