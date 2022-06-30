@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;crm-web_maven/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;m154-crm-web&apos;&#x0D;&#x0A;- Destination element: &apos;crm-web_maven/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     m154-crm-web/src/ch.ilv.crm.web&#x0D;&#x0A;     m154-crm-web/src/ch.ilv.crm.web.controller" description="Copy packages" destination="=crm-web_maven/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;ch.ilv.crm.web" element2="/src&lt;ch.ilv.crm.web.controller" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1656329120975" version="1.0"/>
+</session>

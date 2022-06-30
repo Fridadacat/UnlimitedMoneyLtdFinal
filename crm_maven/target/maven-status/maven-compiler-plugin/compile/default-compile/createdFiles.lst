@@ -1,0 +1,7 @@
+ch\ilv\crm\business\ICustomer.class
+ch\ilv\crm\persistence\CustomerDataAccessMock.class
+ch\ilv\crm\business\AbstractCustomer.class
+ch\ilv\crm\business\BCCustomer.class
+ch\ilv\crm\persistence\ICustomerDAO.class
+ch\ilv\crm\business\CustomerFactory.class
+ch\ilv\crm\persistence\CustomerDAOFactory.class
